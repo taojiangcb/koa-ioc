@@ -1,10 +1,10 @@
 # koa-ioc
 > ioc middleware for koa
 
-![image](./images/logo.png)
+![image](https://github.com/taojiangcb/koa-ioc/blob/master/images/logo.png)
 
 - 指定一个服务目录,在启动服务app时,自动灌入服务路由
-- 基于koa-router app.get,app.post,app.put 等均可使用。
+- 基于koa-router二次封装 app.get,app.post,app.put 等均可使用。
 
 # installation
 unsing npm :
@@ -67,12 +67,9 @@ module.exports = {
 ```
 
 # Contributing
-Please submit all issues and pull requests to the [taojiang/koa-ioc](https://note.youdao.com/) repository!
+Please submit all issues and pull requests to the [taojiang/koa-ioc](https://github.com/taojiangcb/koa-ioc.git/) repository!
 
 # tests
 Run tests using ==npm run test== 
-
-# keywords
-koa koa-ioc ioc router
 
 

@@ -1,2 +1,1 @@
-
-declare function ioc_dir(path: string): any;
+export function ioc_dir(path: string): any;
