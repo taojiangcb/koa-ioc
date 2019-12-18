@@ -1,0 +1,32 @@
+{
+  "name": "koa-ioc",
+  "version": "1.0.0",
+  "description": "'this is a koa-ioc'",
+  "main": "./lib/main.js",
+  "types": "./lib/koa-ioc.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./test/*.test.ts"
+  },
+  "keywords": [
+    "koa-ioc",
+    "ioc",
+    "router",
+    "router-ioc",
+    "koa"
+  ],
+  "author": "taojiang",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa-router": "^7.0.42",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/mocha": "^5.2.7",
+    "axios": "^0.19.0",
+    "mocha": "^6.2.2",
+    "ts-mocha": "^6.0.0",
+    "typescript": "^3.7.3"
+  }
+}
