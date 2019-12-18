@@ -14,14 +14,18 @@
     "router-ioc",
     "koa"
   ],
-  "author": "taojiang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taojiangcb/koa-ioc.git"
+  },
+  "author": "taojiang <jiangtao_qepyou@163.com>",
   "license": "ISC",
   "dependencies": {
     "@types/koa-router": "^7.0.42",
-    "koa": "^2.11.0",
     "koa-router": "^7.4.0"
   },
   "devDependencies": {
+    "koa": "^2.11.0",
     "@types/axios": "^0.14.0",
     "@types/mocha": "^5.2.7",
     "axios": "^0.19.0",
