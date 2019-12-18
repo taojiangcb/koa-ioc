@@ -1,7 +1,7 @@
 # koa-ioc
 > ioc middleware for koa
 
-![image](https://github.com/taojiangcb/koa-ioc/blob/master/images/logo.png)
+![image](https://raw.githubusercontent.com/taojiangcb/koa-ioc/master/images/logo.png)
 
 - 指定一个服务目录,在启动服务app时,自动灌入服务路由
 - 基于koa-router二次封装 app.get,app.post,app.put 等均可使用。
@@ -50,12 +50,12 @@ testSvr.ts
 ```
 import { Context } from "koa";
 
-async function testPost(ctx: Context, next) {
+async function testPost(ctx: Context) {
   console.log('testPost...');
   ctx.response.body = "hellow post";
 }
 
-async function testGet(ctx: Context, next) {
+async function testGet(ctx: Context) {
   console.log('testGet...');
   ctx.response.body = 'hello get';
 }
